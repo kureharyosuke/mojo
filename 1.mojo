@@ -16,3 +16,12 @@ fn addOrMultiply():
     print(multiplyNumber - addNumber)
 
 addOrMultiply()
+
+fn set_fire(owned text: String) -> String:
+    text += "🔥"
+    return text
+
+fn set_name():
+    let a: String = 'Yunseok'
+    let b = set_fire(a)
+    print(b)
