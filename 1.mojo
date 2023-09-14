@@ -24,4 +24,8 @@ fn set_fire(owned text: String) -> String:
 fn set_name():
     let a: String = 'Yunseok'
     let b = set_fire(a)
+    let c: String = set_fire('YUNSEOK') 
     print(b)
+    print(c)
+
+set_name()
