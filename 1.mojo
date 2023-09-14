@@ -14,3 +14,5 @@ fn addOrMultiply():
     let addNumber: Int = add(1, 2)
     let multiplyNumber: Int = multiply(3, 4)
     print(multiplyNumber - addNumber)
+
+addOrMultiply()
